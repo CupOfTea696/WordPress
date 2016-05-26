@@ -13,5 +13,11 @@
     "prefer-stable": true,
     "require": {
         "cupoftea/wordpress-installer": "*"
+    },
+    "extra": {
+        "files": [
+            ".gitginore",
+            "app.php"
+        ]
     }
 }
