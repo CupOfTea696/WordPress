@@ -9,7 +9,8 @@
             "email": "cupoftea696@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "cupoftea/wordpress-installer": "*"
     }
