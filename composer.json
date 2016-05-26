@@ -1,0 +1,16 @@
+{
+    "name": "cupoftea/wordpress",
+    "description": "WordPress",
+    "type": "cupoftea-wordpress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Wittevrongel",
+            "email": "cupoftea696@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "cupoftea/wordpress-installer": "*"
+    }
+}
