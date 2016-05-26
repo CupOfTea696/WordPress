@@ -16,7 +16,6 @@
     },
     "extra": {
         "files": [
-            ".gitignore",
             "app.php"
         ]
     }
