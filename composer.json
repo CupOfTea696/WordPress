@@ -16,7 +16,7 @@
         "cupoftea/wordpress-composer": "*"
     },
     "extra": {
-        "wordpress-install-dir": "public/wp",
+        "public-dir": "public",
         "files": [
             ".env.example",
             "app.php",
