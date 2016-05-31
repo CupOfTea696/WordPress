@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "require": {
         "johnpbloch/wordpress": "~4.4",
-        "cupoftea/wordpress-installer": "*"
+        "cupoftea/wordpress-composer": "*"
     },
     "extra": {
         "wordpress-install-dir": "public/wp",
