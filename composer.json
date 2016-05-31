@@ -18,7 +18,22 @@
     "extra": {
         "wordpress-install-dir": "public/wp",
         "files": [
-            "app.php"
+            ".env.example",
+            "app.php",
+            "bootstrap/setThemeDir.php",
+            "config/app.php",
+            "config/view.php",
+            "public/.htaccess",
+            "public/assets/.gitkeep",
+            "public/index.php",
+            "public/themes/index.php",
+            "public/wp/wp-config.php",
+            "public/wp-config.php",
+            "storage/app/.gitkeep",
+            "storage/app/public/.gitkeep",
+            "storage/framework/.gitkeep",
+            "storage/framework/views/.gitkeep",
+            "storage/logs/.gitkeep"
         ]
     }
 }
