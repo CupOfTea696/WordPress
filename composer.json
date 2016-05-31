@@ -37,15 +37,15 @@
             "public/wp-config.php",
             "storage/",
             "storage/app/",
-            "storage/app/.gitkeep",
+            "storage/app/.gitignore",
             "storage/app/public/",
-            "storage/app/public/.gitkeep",
+            "storage/app/public/.gitignore",
             "storage/framework/",
-            "storage/framework/.gitkeep",
+            "storage/framework/.gitignore",
             "storage/framework/views/",
-            "storage/framework/views/.gitkeep",
+            "storage/framework/views/.gitignore",
             "storage/logs/",
-            "storage/logs/.gitkeep"
+            "storage/logs/.gitignore"
         ]
     }
 }
