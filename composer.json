@@ -12,9 +12,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
+        "johnpbloch/wordpress": "~4.4",
         "cupoftea/wordpress-installer": "*"
     },
     "extra": {
+        "wordpress-install-dir": "public/wp",
         "files": [
             "app.php"
         ]
