@@ -21,7 +21,6 @@
     "extra": {
         "public-dir": "public",
         "files": [
-            ".env.example",
             "app.php",
             "bootstrap/",
             "bootstrap/setThemeDir.php",
