@@ -12,8 +12,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "johnpbloch/wordpress": "~4.4",
-        "cupoftea/wordpress-composer": "*"
+        "cupoftea/wordpress-composer": "*",
+        "johnpbloch/wordpress": "~4.4"
+    },
+    "config": {
+        "sort-packages": true
     },
     "extra": {
         "public-dir": "public",
