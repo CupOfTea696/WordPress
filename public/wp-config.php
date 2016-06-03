@@ -82,7 +82,20 @@ $table_prefix  = env('DB_TABLE_PREFIX', 'wp_');
  */
 define('WP_DEBUG', env('APP_DEBUG', false));
 
+// Define WP directories & URLs
+define('BASE_URL', http_build_url([
+    'scheme' => empty($_SERVER['HTTPS']) ? 'http' : 'https',
+    'host' => $_SERVER['HTTP_HOST']
+]));
+
+define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
+define('WP_CONTENT_URL', BASE_URL . '/content');
+define('WP_PLUGIN_DIR', dirname(__FILE__) . '/plugins');
+define('WP_PLUGIN_URL', BASE_URL . '/plugins');
 define('WPMU_PLUGIN_DIR', dirname(__DIR__) . '/bootstrap');
+
+// Disable file editing.
+define('DISALLOW_FILE_EDIT', true);
 
 /* That's all, stop editing! Happy blogging. */
 
