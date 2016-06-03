@@ -1,0 +1,21 @@
+# System files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Dependencies
+/vendor/
+composer.phar
+composer.lock
+
+# WordPress files
+{{ APP_PUBLIC }}/content
+!{{ APP_PUBLIC }}/content/index.php
+{{ APP_PUBLIC }}/plugins
+!{{ APP_PUBLIC }}/plugins/index.php
+{{ APP_PUBLIC }}/wp
