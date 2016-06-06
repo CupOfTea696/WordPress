@@ -34,6 +34,8 @@
             "public/assets/.gitkeep",
             "public/content/",
             "public/content/index.php",
+            "public/content/themes/",
+            "public/content/themes/index.php",
             "public/index.php",
             "public/plugins/",
             "public/plugins/index.php",
