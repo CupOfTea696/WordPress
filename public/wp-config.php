@@ -83,10 +83,7 @@ $table_prefix  = env('DB_TABLE_PREFIX', 'wp_');
 define('WP_DEBUG', env('APP_DEBUG', false));
 
 // Define WP directories & URLs
-define('BASE_URL', http_build_url([
-    'scheme' => empty($_SERVER['HTTPS']) ? 'http' : 'https',
-    'host' => $_SERVER['HTTP_HOST']
-]));
+define('BASE_URL', (empty($_SERVER['HTTPS']) ? 'http' : 'https') . '://' . $_SERVER['HTTP_HOST']);
 
 define('WP_CONTENT_DIR', dirname(__FILE__) . '/content');
 define('WP_CONTENT_URL', BASE_URL . '/content');
