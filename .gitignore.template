@@ -21,4 +21,6 @@ composer.lock
 {{ APP_PUBLIC }}/wp
 
 # Configuration files
-*.env
+.env
+.env.*
+!.env.example
