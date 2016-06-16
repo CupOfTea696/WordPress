@@ -19,3 +19,6 @@ composer.lock
 {{ APP_PUBLIC }}/plugins
 !{{ APP_PUBLIC }}/plugins/index.php
 {{ APP_PUBLIC }}/wp
+
+# Configuration files
+*.env
