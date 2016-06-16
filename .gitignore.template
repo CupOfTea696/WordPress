@@ -13,14 +13,14 @@ $RECYCLE.BIN/
 composer.phar
 composer.lock
 
+# Configuration files
+.env
+.env.*
+!.env.example
+
 # WordPress files
 {{ APP_PUBLIC }}/content
 !{{ APP_PUBLIC }}/content/index.php
 {{ APP_PUBLIC }}/plugins
 !{{ APP_PUBLIC }}/plugins/index.php
 {{ APP_PUBLIC }}/wp
-
-# Configuration files
-.env
-.env.*
-!.env.example
