@@ -21,38 +21,101 @@
     },
     "extra": {
         "public-dir": "public",
+        "main": "app.php",
         "files": [
-            "app.php",
-            "bootstrap/",
-            "bootstrap/setThemeDir.php",
-            "config/",
-            "config/app.php",
-            "config/view.php",
-            "public/",
-            "public/.htaccess",
-            "public/assets/",
-            "public/assets/.gitkeep",
-            "public/content/",
-            "public/content/index.php",
-            "public/content/themes/",
-            "public/content/themes/index.php",
-            "public/index.php",
-            "public/plugins/",
-            "public/plugins/index.php",
-            "public/themes/",
-            "public/themes/index.php",
-            "public/wp-config.php",
-            "storage/",
-            "storage/app/",
-            "storage/app/.gitignore",
-            "storage/app/public/",
-            "storage/app/public/.gitignore",
-            "storage/framework/",
-            "storage/framework/.gitignore",
-            "storage/framework/views/",
-            "storage/framework/views/.gitignore",
-            "storage/logs/",
-            "storage/logs/.gitignore"
+            {
+                "app.php": false
+            },
+            {
+                "bootstrap/": true
+            },
+            {
+                "bootstrap/setThemeDir.php": false
+            },
+            {
+                "config/": true
+            },
+            {
+                "config/app.php": false
+            },
+            {
+                "config/view.php": false
+            },
+            {
+                "public/": true
+            },
+            {
+                "public/.htaccess": true
+            },
+            {
+                "public/assets/": true
+            },
+            {
+                "public/assets/.gitkeep": true
+            },
+            {
+                "public/content/": true
+            },
+            {
+                "public/content/index.php": true
+            },
+            {
+                "public/content/themes/": true
+            },
+            {
+                "public/content/themes/index.php": true
+            },
+            {
+                "public/index.php": true
+            },
+            {
+                "public/plugins/": true
+            },
+            {
+                "public/plugins/index.php": true
+            },
+            {
+                "public/themes/": true
+            },
+            {
+                "public/themes/index.php": true
+            },
+            {
+                "public/wp-config.php": true
+            },
+            {
+                "storage/": true
+            },
+            {
+                "storage/app/": true
+            },
+            {
+                "storage/app/.gitignore": true
+            },
+            {
+                "storage/app/public/": true
+            },
+            {
+                "storage/app/public/.gitignore": true
+            },
+            {
+                "storage/framework/": true
+            },
+            {
+                "storage/framework/.gitignore": true
+            },
+            {
+                "storage/framework/views/": true
+            },
+            {
+                "storage/framework/views/.gitignore": true
+            },
+            {
+                "storage/logs/": true
+            },
+            {
+                "storage/logs/.gitignore": true
+            }
         ]
     }
 }
