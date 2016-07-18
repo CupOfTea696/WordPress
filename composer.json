@@ -22,100 +22,38 @@
     "extra": {
         "public-dir": "public",
         "main": "app.php",
-        "files": [
-            {
-                "app.php": false
-            },
-            {
-                "bootstrap/": true
-            },
-            {
-                "bootstrap/setThemeDir.php": false
-            },
-            {
-                "config/": true
-            },
-            {
-                "config/app.php": false
-            },
-            {
-                "config/view.php": false
-            },
-            {
-                "public/": true
-            },
-            {
-                "public/.htaccess": true
-            },
-            {
-                "public/assets/": true
-            },
-            {
-                "public/assets/.gitkeep": true
-            },
-            {
-                "public/content/": true
-            },
-            {
-                "public/content/index.php": true
-            },
-            {
-                "public/content/themes/": true
-            },
-            {
-                "public/content/themes/index.php": true
-            },
-            {
-                "public/index.php": true
-            },
-            {
-                "public/plugins/": true
-            },
-            {
-                "public/plugins/index.php": true
-            },
-            {
-                "public/themes/": true
-            },
-            {
-                "public/themes/index.php": true
-            },
-            {
-                "public/wp-config.php": true
-            },
-            {
-                "storage/": true
-            },
-            {
-                "storage/app/": true
-            },
-            {
-                "storage/app/.gitignore": true
-            },
-            {
-                "storage/app/public/": true
-            },
-            {
-                "storage/app/public/.gitignore": true
-            },
-            {
-                "storage/framework/": true
-            },
-            {
-                "storage/framework/.gitignore": true
-            },
-            {
-                "storage/framework/views/": true
-            },
-            {
-                "storage/framework/views/.gitignore": true
-            },
-            {
-                "storage/logs/": true
-            },
-            {
-                "storage/logs/.gitignore": true
-            }
-        ]
+        "files": {
+            "app.php": false,
+            "bootstrap/": true,
+            "bootstrap/setThemeDir.php": false,
+            "config/": true,
+            "config/app.php": false,
+            "config/view.php": false,
+            "public/": true,
+            "public/.htaccess": true,
+            "public/assets/": true,
+            "public/assets/.gitkeep": true,
+            "public/content/": true,
+            "public/content/index.php": true,
+            "public/content/themes/": true,
+            "public/content/themes/index.php": true,
+            "public/index.php": true,
+            "public/plugins/": true,
+            "public/plugins/index.php": true,
+            "public/themes/": true,
+            "public/themes/index.php": true,
+            "public/wp-config.php": true,
+            "storage/": true,
+            "storage/app/": true,
+            "storage/app/.gitignore": true,
+            "storage/app/public/": true,
+            "storage/app/public/.gitignore": true,
+            "storage/framework/": true,
+            "storage/framework/.gitignore": true,
+            "storage/framework/views/": true,
+            "storage/framework/views/.gitignore": true,
+            "storage/logs/": true,
+            "storage/logs/.gitignore": true
+        }
     }
 }
