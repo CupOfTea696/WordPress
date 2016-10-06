@@ -29,4 +29,4 @@ $__ensureCorrectFrontendUrl = function ()
 
 $__ensureCorrectFrontendUrl();
 
-unset($__ensurePreferredDomain, $__ensureCorrectBackendUrl);
+unset($__ensureCorrectBackendUrl, $__ensureCorrectFrontendUrl);
