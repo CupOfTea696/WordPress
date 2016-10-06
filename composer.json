@@ -25,7 +25,8 @@
         "files": {
             "app.php": false,
             "bootstrap/": true,
-            "bootstrap/setThemeDir.php": false,
+            "bootstrap/ensure-correct-url.php": false,
+            "bootstrap/set-theme-dir.php": false,
             "config/": true,
             "config/app.php": false,
             "config/view.php": false,
