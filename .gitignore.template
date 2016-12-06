@@ -1,17 +1,23 @@
 # System files
-.DS_Store
 ._*
-.Spotlight-V100
 .Trashes
+.DS_Store
 Thumbs.db
-ehthumbs.db
 Desktop.ini
+ehthumbs.db
 $RECYCLE.BIN/
+.Spotlight-V100
+
+# Editors
+.idea/*
+*.komodoproject
+*.sublime-project
+*.sublime-workspace
 
 # Dependencies
 /vendor/
-composer.phar
 composer.lock
+composer.phar
 
 # Configuration files
 .env
@@ -19,8 +25,8 @@ composer.lock
 !.env.example
 
 # WordPress files
-{{ APP_PUBLIC }}/content
-!{{ APP_PUBLIC }}/content/index.php
-{{ APP_PUBLIC }}/plugins
-!{{ APP_PUBLIC }}/plugins/index.php
 {{ APP_PUBLIC }}/wp
+{{ APP_PUBLIC }}/content
+{{ APP_PUBLIC }}/plugins
+!{{ APP_PUBLIC }}/content/index.php
+!{{ APP_PUBLIC }}/plugins/index.php
