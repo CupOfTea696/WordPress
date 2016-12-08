@@ -12,9 +12,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "cupoftea/wordpress-composer": "*",
-        "cupoftea/wordpress-lib": "*",
-        "johnpbloch/wordpress": "~4.4"
+        "cupoftea/wordpress-composer": "^1.0",
+        "cupoftea/wordpress-lib": "^1.0",
+        "johnpbloch/wordpress": "^4.7"
     },
     "config": {
         "sort-packages": true
