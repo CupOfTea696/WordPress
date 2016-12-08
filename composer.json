@@ -9,7 +9,7 @@
             "email": "cupoftea696@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "cupoftea/package": "^1.3",
