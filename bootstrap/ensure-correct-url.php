@@ -22,7 +22,7 @@ $__ensureCorrectFrontendUrl = function ()
 {
     $home = get_option('home');
     
-    if (! preg_match('/\\/wp\\/?$/', $home)) {
+    if (preg_match('/\\/wp\\/?$/', $home)) {
         update_option('home', preg_replace('/\\/wp(\\/?)$/', '$1', $home));
     }
 };
