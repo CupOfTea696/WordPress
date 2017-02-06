@@ -32,6 +32,7 @@
             "app.php": false,
             "bootstrap/": true,
             "bootstrap/ensure-correct-url.php": false,
+            "bootstrap/sanitize-file-names.php": false,
             "bootstrap/set-theme-dir.php": false,
             "config/": true,
             "config/app.php": false,
