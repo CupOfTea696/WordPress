@@ -12,7 +12,7 @@
  * 
  * Example usage:
  * 
- * if (preg_match('/(^localhost|\\.local)$/', $host) && file_exists(base_path('.env.local'))) {
+ * if (preg_match('/(^localhost|\\.local)$/', $_SERVER['HTTP_HOST']) && file_exists(base_path('.env.local'))) {
  *     return '.env.local';
  * }
  * 
