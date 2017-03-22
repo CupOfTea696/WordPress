@@ -37,6 +37,7 @@
             "config/": true,
             "config/app.php": false,
             "config/view.php": false,
+            "env.php": false,
             "public/": true,
             "public/.htaccess": true,
             "public/assets/": true,
