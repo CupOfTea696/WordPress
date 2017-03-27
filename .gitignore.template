@@ -15,9 +15,11 @@ $RECYCLE.BIN/
 *.sublime-workspace
 
 # Dependencies
-/vendor/
-composer.lock
+vendor/
 composer.phar
+composer.lock
+node_modules/
+bower_components/
 
 # Configuration files
 .env

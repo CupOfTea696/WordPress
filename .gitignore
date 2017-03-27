@@ -9,6 +9,8 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Dependencies
-/vendor/
+vendor/
 composer.phar
 composer.lock
+node_modules/
+bower_components/
