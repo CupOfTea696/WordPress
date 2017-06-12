@@ -12,8 +12,8 @@
  * 
  * Example usage:
  * 
- * if (preg_match('/(^localhost|\\.local)$/', $_SERVER['HTTP_HOST']) && file_exists(base_path('.env.local'))) {
- *     return '.env.local';
+ * if (preg_match('/(^localhost|\\.local)$/', $_SERVER['HTTP_HOST'])) {
+ *     return file_exists(base_path('.env.local')) ? '.env.local' : '.env';
  * }
  * 
  */
