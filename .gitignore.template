@@ -28,7 +28,7 @@ bower_components/
 
 # WordPress files
 {{ APP_PUBLIC }}/wp
-{{ APP_PUBLIC }}/content
-{{ APP_PUBLIC }}/plugins
+{{ APP_PUBLIC }}/content/*
+{{ APP_PUBLIC }}/plugins/*
 !{{ APP_PUBLIC }}/content/index.php
 !{{ APP_PUBLIC }}/plugins/index.php
