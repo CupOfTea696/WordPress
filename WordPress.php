@@ -28,5 +28,5 @@ class WordPress implements PackageContract
      *
      * @const string
      */
-    const VERSION = '1.1.4';
+    const VERSION = '1.1.5';
 }
