@@ -3,8 +3,9 @@
 use CupOfTea\WordPress\Application;
 
 /**
- * Composer
+ * Composer & Autoloading
  */
+require 'vendor/cupoftea/wordpress-lib/src/helpers.php';
 $composer = require 'vendor/autoload.php';
 
 /**

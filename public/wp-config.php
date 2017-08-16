@@ -32,7 +32,7 @@ define('DB_USER', env('DB_USER'));
 define('DB_PASSWORD', env('DB_PASS'));
 
 /** MySQL hostname */
-define('DB_HOST', env('DB_HOST'));
+define('DB_HOST', env('DB_HOST', 'localhost'));
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -40,7 +40,15 @@ define('DB_CHARSET', 'utf8mb4');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
-/**#@+
+/**
+ * WordPress Database Table prefix.
+ *
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ */
+$table_prefix = env('DB_TABLE_PREFIX', 'wp_');
+
+/**
  * Authentication Unique Keys and Salts.
  *
  * Change these to different unique phrases!
@@ -57,16 +65,6 @@ define('AUTH_SALT', env('AUTH_SALT'));
 define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 define('NONCE_SALT', env('NONCE_SALT'));
-
-/**#@-*/
-
-/**
- * WordPress Database Table prefix.
- *
- * You can have multiple installations in one database if you give each
- * a unique prefix. Only numbers, letters, and underscores please!
- */
-$table_prefix  = env('DB_TABLE_PREFIX', 'wp_');
 
 /**
  * For developers: WordPress debugging mode.
