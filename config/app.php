@@ -12,7 +12,10 @@ return [
 	|
 	*/
     'aliases' => [
-        
+        'Arr' => Illuminate\Support\Arr::class,
+        'Str' => Illuminate\Support\Str::class,
+        'Log' => Illuminate\Support\Facades\Log::class,
+        'Config' => Illuminate\Support\Facades\Config::class,
     ],
     
     'services' => [
